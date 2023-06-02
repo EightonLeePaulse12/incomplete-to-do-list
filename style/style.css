@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://i.postimg.cc/5Np9LG3b/tony-litvyak-F2bhoj7-M7f-M-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(138, 100, 100);
+  background-position: center;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.to-do-container {
+  display: flex;
+  flex-direction: column;
+  /* padding:1rem; */
+  /* justify-content: center;
+    text-align: center; */
+  background-color: white;
+  border: 2px solid white;
+  width: 30%;
+  height: 80%;
+  border-radius: 40px;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 33px;
+  border-top-left-radius: 33px;
+  height: 4rem;
+  background-color: orangered;
+}
+
+#input {
+  width: 18rem;
+  margin-top: 2rem;
+  display: flex;
+  height: 3rem;
+  border-radius: 10px;
+  margin-left: 4.5rem;
+}
+
+#display {
+  position: relative;
+  left: 23rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  width: 5rem;
+  height: 3rem;
+  bottom: 3rem;
+}
+
+#addNames {
+  position: relative;
+  border-radius: 10px;
+  right: 4.99rem;
+  height: 2.9rem;
+  width: 3.9rem;
+  bottom: 3.4rem;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1rem;
+}
+
+.listt {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.eachItem {
+  width: 100%;
+  display: flex;
+}
+
+.myCheckbox[] {
+  margin-right: 10rem;
+}
+
+#exit {
+  position: relative;
+  color: black;
+  background-color: red;
+  right: -23.8rem;
+}
+/* .to-do-body{
+    height:100%;
+    background-color: orangered;
+} */
+/* 
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.form {
+  width: 40rem;
+  height: 20rem;
+  padding: 1rem;
+  background-color: rgb(238, 233, 146);
+}
+
+#input {
+  width: 50%;
+}
+
+#addNames {
+  border: 2px solid black;
+  cursor: pointer;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+#display {
+  border: 2px solid black;
+  cursor: pointer;
+  margin-top: 3rem;
+  width: 100%;
+} */
+
+@media (max-width: 1510px) {
+  #display {
+    width: 2rem;
+    position: static;
+  }
+  #addNames {
+    width: 2.5rem;
+    position: static;
+  }
+
+  .to-do-body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
